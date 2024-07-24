@@ -4,7 +4,7 @@
 
 read user #To absorb LinBPQ's user callsign
 
-echo "Node Callsign (type '0' to exit)"
+echo "Node Callsign (or enter ' (an apostrophe) to see the full list of nodes)"
 read callsign
 
 callsign=$(echo -n "$callsign" | tr -d '\r\n')
