@@ -2,6 +2,8 @@
 # Application to look up node information from Tom M0LTE's https://ukpacketradio.network Wiki
 # N. Higgins MM3NDH and M. Topple GM5AUG
 
+read user #This absorbs LinBPQ's caller callsign which isn't relevant to this
+
 echo "Node Callsign"
 read callsign
 
