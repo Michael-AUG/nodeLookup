@@ -22,7 +22,8 @@ Packet radio is a primarily text-based environment, so the formatting in the Wik
   * `curl`
   * `awk`
   * `html2text`
-All of which are available from the `apt` installer on Debian/Ubuntu, and doubtless from other repositories. 
+
+...All of which are available from the `apt` installer on Debian/Ubuntu, and doubtless from other repositories. 
 
 Michael Topple GM5AUG
 SYSOP GB7AUG, MB7NKL
