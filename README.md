@@ -8,7 +8,7 @@ With the resurgance in packet radio, more and more nodes are appearing across th
 
 All node SYSOPs are encouraged to add their node information into this Wiki.
 
-SYSOPs can also install `nodeLookup` into their node's custom applications, to allow users of their nodes to call up information about any other node on the Wiki.
+SYSOPs can also install `nodeLookup` into their node's custom applications, to allow users of their nodes to call up information about any other node on the Wiki. If the user enters a `'` (apostrophe) - or, it appears, a number of other characters - at the prompt s/he will be given a list of all the nodes on the Wiki.
 
 ## Next Steps ##
 
