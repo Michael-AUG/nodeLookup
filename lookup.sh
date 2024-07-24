@@ -4,12 +4,9 @@
 
 read user #To absorb LinBPQ's user callsign
 
-while true; do
-
-echo "Node Callsign"
-sleep 1s
+echo "Node Callsign (type '0' to exit)"
 read callsign
-sleep 1s
+
+callsign=$(echo -n "$callsign" | tr -d '\r\n')
 /usr/bin/curl -s "https://ukpacketradio.network/nodes:${callsign}" | /usr/bin/html2text | /usr/bin/awk '/==+/ {flag=!flag; next} flag'
-sleep 1s
-done
+   sleep 2
